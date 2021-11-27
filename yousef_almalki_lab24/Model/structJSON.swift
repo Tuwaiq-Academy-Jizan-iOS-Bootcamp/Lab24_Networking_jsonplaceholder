@@ -6,8 +6,8 @@
 //
 
 import Foundation
-// MARK: - Element
-struct Element: Decodable {
+// MARK: - Person
+struct Person: Decodable {
     let id: Int
     let name, username, email: String
     let address: Address
@@ -31,4 +31,4 @@ struct Company: Decodable {
     let name, catchPhrase, bs: String
 }
 
-//typealias Empty = [Element]
+typealias details = [Person]
