@@ -66,7 +66,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         cell.nameLabel.text = personal[indexPath.row].name
         cell.usernameLabel.text = personal[indexPath.row].username
         cell.emilLabel.text = personal[indexPath.row].email
-        cell.addressLabel.text = "\(personal[indexPath.row].address)"
+        cell.addressLabel.text = "\(personal[indexPath.row].address)\n"
         cell.phoneLabel.text = personal[indexPath.row].phone
         cell.websiteLabel.text = personal[indexPath.row].website
         cell.companyLabel.text = "\(personal[indexPath.row].company)"
