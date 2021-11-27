@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD481AA0275199440094FF33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD481A9F275199440094FF33 /* AppDelegate.swift */; };
+		BD481AA2275199440094FF33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD481AA1275199440094FF33 /* SceneDelegate.swift */; };
+		BD481AA4275199440094FF33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD481AA3275199440094FF33 /* ViewController.swift */; };
+		BD481AA7275199440094FF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD481AA5275199440094FF33 /* Main.storyboard */; };
+		BD481AA9275199450094FF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD481AA8275199450094FF33 /* Assets.xcassets */; };
+		BD481AAC275199450094FF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD481AAA275199450094FF33 /* LaunchScreen.storyboard */; };
+		BD481AB7275199450094FF33 /* NouraLab24Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD481AB6275199450094FF33 /* NouraLab24Tests.swift */; };
+		BD481AC1275199450094FF33 /* NouraLab24UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD481AC0275199450094FF33 /* NouraLab24UITests.swift */; };
+		BD481AC3275199450094FF33 /* NouraLab24UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD481AC2275199450094FF33 /* NouraLab24UITestsLaunchTests.swift */; };
+		BD481AD027519A040094FF33 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD481ACF27519A040094FF33 /* Data.swift */; };
+		BD481AD72751A69D0094FF33 /* WelcomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD481AD62751A69D0094FF33 /* WelcomeTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD481AB3275199450094FF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD481A94275199440094FF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD481A9B275199440094FF33;
+			remoteInfo = NouraLab24;
+		};
+		BD481ABD275199450094FF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD481A94275199440094FF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD481A9B275199440094FF33;
+			remoteInfo = NouraLab24;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD481A9C275199440094FF33 /* NouraLab24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NouraLab24.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD481A9F275199440094FF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD481AA1275199440094FF33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD481AA3275199440094FF33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD481AA6275199440094FF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD481AA8275199450094FF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD481AAB275199450094FF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD481AAD275199450094FF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD481AB2275199450094FF33 /* NouraLab24Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NouraLab24Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD481AB6275199450094FF33 /* NouraLab24Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NouraLab24Tests.swift; sourceTree = "<group>"; };
+		BD481ABC275199450094FF33 /* NouraLab24UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NouraLab24UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD481AC0275199450094FF33 /* NouraLab24UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NouraLab24UITests.swift; sourceTree = "<group>"; };
+		BD481AC2275199450094FF33 /* NouraLab24UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NouraLab24UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD481ACF27519A040094FF33 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BD481AD62751A69D0094FF33 /* WelcomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD481A99275199440094FF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD481AAF275199450094FF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD481AB9275199450094FF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD481A93275199440094FF33 = {
+			isa = PBXGroup;
+			children = (
+				BD481A9E275199440094FF33 /* NouraLab24 */,
+				BD481AB5275199450094FF33 /* NouraLab24Tests */,
+				BD481ABF275199450094FF33 /* NouraLab24UITests */,
+				BD481A9D275199440094FF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD481A9D275199440094FF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD481A9C275199440094FF33 /* NouraLab24.app */,
+				BD481AB2275199450094FF33 /* NouraLab24Tests.xctest */,
+				BD481ABC275199450094FF33 /* NouraLab24UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD481A9E275199440094FF33 /* NouraLab24 */ = {
+			isa = PBXGroup;
+			children = (
+				BD481A9F275199440094FF33 /* AppDelegate.swift */,
+				BD481AA1275199440094FF33 /* SceneDelegate.swift */,
+				BD481AD127519B570094FF33 /* model */,
+				BD481AD227519B7E0094FF33 /* view */,
+				BD481AD327519BA90094FF33 /* controll */,
+				BD481AAA275199450094FF33 /* LaunchScreen.storyboard */,
+				BD481AA8275199450094FF33 /* Assets.xcassets */,
+				BD481AAD275199450094FF33 /* Info.plist */,
+			);
+			path = NouraLab24;
+			sourceTree = "<group>";
+		};
+		BD481AB5275199450094FF33 /* NouraLab24Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD481AB6275199450094FF33 /* NouraLab24Tests.swift */,
+			);
+			path = NouraLab24Tests;
+			sourceTree = "<group>";
+		};
+		BD481ABF275199450094FF33 /* NouraLab24UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD481AC0275199450094FF33 /* NouraLab24UITests.swift */,
+				BD481AC2275199450094FF33 /* NouraLab24UITestsLaunchTests.swift */,
+			);
+			path = NouraLab24UITests;
+			sourceTree = "<group>";
+		};
+		BD481AD127519B570094FF33 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BD481ACF27519A040094FF33 /* Data.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		BD481AD227519B7E0094FF33 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BD481AA5275199440094FF33 /* Main.storyboard */,
+				BD481AD62751A69D0094FF33 /* WelcomeTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BD481AD327519BA90094FF33 /* controll */ = {
+			isa = PBXGroup;
+			children = (
+				BD481AA3275199440094FF33 /* ViewController.swift */,
+			);
+			name = controll;
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD481A9B275199440094FF33 /* NouraLab24 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD481AC6275199450094FF33 /* Build configuration list for PBXNativeTarget "NouraLab24" */;
+			buildPhases = (
+				BD481A98275199440094FF33 /* Sources */,
+				BD481A99275199440094FF33 /* Frameworks */,
+				BD481A9A275199440094FF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NouraLab24;
+			productName = NouraLab24;
+			productReference = BD481A9C275199440094FF33 /* NouraLab24.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD481AB1275199450094FF33 /* NouraLab24Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD481AC9275199450094FF33 /* Build configuration list for PBXNativeTarget "NouraLab24Tests" */;
+			buildPhases = (
+				BD481AAE275199450094FF33 /* Sources */,
+				BD481AAF275199450094FF33 /* Frameworks */,
+				BD481AB0275199450094FF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD481AB4275199450094FF33 /* PBXTargetDependency */,
+			);
+			name = NouraLab24Tests;
+			productName = NouraLab24Tests;
+			productReference = BD481AB2275199450094FF33 /* NouraLab24Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD481ABB275199450094FF33 /* NouraLab24UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD481ACC275199450094FF33 /* Build configuration list for PBXNativeTarget "NouraLab24UITests" */;
+			buildPhases = (
+				BD481AB8275199450094FF33 /* Sources */,
+				BD481AB9275199450094FF33 /* Frameworks */,
+				BD481ABA275199450094FF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD481ABE275199450094FF33 /* PBXTargetDependency */,
+			);
+			name = NouraLab24UITests;
+			productName = NouraLab24UITests;
+			productReference = BD481ABC275199450094FF33 /* NouraLab24UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD481A94275199440094FF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BD481A9B275199440094FF33 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BD481AB1275199450094FF33 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BD481A9B275199440094FF33;
+					};
+					BD481ABB275199450094FF33 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BD481A9B275199440094FF33;
+					};
+				};
+			};
+			buildConfigurationList = BD481A97275199440094FF33 /* Build configuration list for PBXProject "NouraLab24" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD481A93275199440094FF33;
+			productRefGroup = BD481A9D275199440094FF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD481A9B275199440094FF33 /* NouraLab24 */,
+				BD481AB1275199450094FF33 /* NouraLab24Tests */,
+				BD481ABB275199450094FF33 /* NouraLab24UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD481A9A275199440094FF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD481AAC275199450094FF33 /* LaunchScreen.storyboard in Resources */,
+				BD481AA9275199450094FF33 /* Assets.xcassets in Resources */,
+				BD481AA7275199440094FF33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD481AB0275199450094FF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD481ABA275199450094FF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD481A98275199440094FF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD481AA4275199440094FF33 /* ViewController.swift in Sources */,
+				BD481AD72751A69D0094FF33 /* WelcomeTableViewCell.swift in Sources */,
+				BD481AA0275199440094FF33 /* AppDelegate.swift in Sources */,
+				BD481AA2275199440094FF33 /* SceneDelegate.swift in Sources */,
+				BD481AD027519A040094FF33 /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD481AAE275199450094FF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD481AB7275199450094FF33 /* NouraLab24Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD481AB8275199450094FF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD481AC3275199450094FF33 /* NouraLab24UITestsLaunchTests.swift in Sources */,
+				BD481AC1275199450094FF33 /* NouraLab24UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD481AB4275199450094FF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD481A9B275199440094FF33 /* NouraLab24 */;
+			targetProxy = BD481AB3275199450094FF33 /* PBXContainerItemProxy */;
+		};
+		BD481ABE275199450094FF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD481A9B275199440094FF33 /* NouraLab24 */;
+			targetProxy = BD481ABD275199450094FF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD481AA5275199440094FF33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD481AA6275199440094FF33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD481AAA275199450094FF33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD481AAB275199450094FF33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD481AC4275199450094FF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD481AC5275199450094FF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD481AC7275199450094FF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NouraLab24/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.NouraLab24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD481AC8275199450094FF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NouraLab24/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.NouraLab24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD481ACA275199450094FF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.NouraLab24Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NouraLab24.app/NouraLab24";
+			};
+			name = Debug;
+		};
+		BD481ACB275199450094FF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.NouraLab24Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NouraLab24.app/NouraLab24";
+			};
+			name = Release;
+		};
+		BD481ACD275199450094FF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.NouraLab24UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NouraLab24;
+			};
+			name = Debug;
+		};
+		BD481ACE275199450094FF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.NouraLab24UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NouraLab24;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD481A97275199440094FF33 /* Build configuration list for PBXProject "NouraLab24" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD481AC4275199450094FF33 /* Debug */,
+				BD481AC5275199450094FF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD481AC6275199450094FF33 /* Build configuration list for PBXNativeTarget "NouraLab24" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD481AC7275199450094FF33 /* Debug */,
+				BD481AC8275199450094FF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD481AC9275199450094FF33 /* Build configuration list for PBXNativeTarget "NouraLab24Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD481ACA275199450094FF33 /* Debug */,
+				BD481ACB275199450094FF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD481ACC275199450094FF33 /* Build configuration list for PBXNativeTarget "NouraLab24UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD481ACD275199450094FF33 /* Debug */,
+				BD481ACE275199450094FF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD481A94275199440094FF33 /* Project object */;
+}
