@@ -31,7 +31,7 @@ class ViewController: UIViewController {
                 }else{
                     print ("dowe have data",data)
                     if let safeData = data {
-                        print(String(data:safeData, encoding: .utf8))
+                    print(String(data:safeData, encoding: .utf8))
                         do{
                             let decoder = JSONDecoder()
                             let decodedData = try decoder.decode([Person].self, from: safeData)
