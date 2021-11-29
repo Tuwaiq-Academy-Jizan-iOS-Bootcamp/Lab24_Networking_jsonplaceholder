@@ -22,7 +22,7 @@ struct Address:Codable{
 }
 struct Company:Codable{
     var name:String
-    var catchphrase:String
+    var catchPhrase:String
     var bs:String
     
     
