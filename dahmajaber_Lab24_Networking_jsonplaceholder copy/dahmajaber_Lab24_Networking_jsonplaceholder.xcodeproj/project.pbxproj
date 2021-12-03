@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA872B562754A0F300AE9C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA872B552754A0F300AE9C46 /* AppDelegate.swift */; };
+		EA872B582754A0F300AE9C46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA872B572754A0F300AE9C46 /* SceneDelegate.swift */; };
+		EA872B5A2754A0F300AE9C46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA872B592754A0F300AE9C46 /* ViewController.swift */; };
+		EA872B5D2754A0F300AE9C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA872B5B2754A0F300AE9C46 /* Main.storyboard */; };
+		EA872B5F2754A0F500AE9C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA872B5E2754A0F500AE9C46 /* Assets.xcassets */; };
+		EA872B622754A0F500AE9C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA872B602754A0F500AE9C46 /* LaunchScreen.storyboard */; };
+		EA872B6D2754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA872B6C2754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests.swift */; };
+		EA872B772754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA872B762754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests.swift */; };
+		EA872B792754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA872B782754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITestsLaunchTests.swift */; };
+		EA872B862754A28B00AE9C46 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA872B852754A28B00AE9C46 /* Person.swift */; };
+		EA872B882754F2A300AE9C46 /* CellTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA872B872754F2A300AE9C46 /* CellTable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA872B692754A0F500AE9C46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA872B4A2754A0F300AE9C46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA872B512754A0F300AE9C46;
+			remoteInfo = dahmajaber_Lab24_Networking_jsonplaceholder;
+		};
+		EA872B732754A0F500AE9C46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA872B4A2754A0F300AE9C46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA872B512754A0F300AE9C46;
+			remoteInfo = dahmajaber_Lab24_Networking_jsonplaceholder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA872B522754A0F300AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dahmajaber_Lab24_Networking_jsonplaceholder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA872B552754A0F300AE9C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA872B572754A0F300AE9C46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA872B592754A0F300AE9C46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA872B5C2754A0F300AE9C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA872B5E2754A0F500AE9C46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA872B612754A0F500AE9C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA872B632754A0F500AE9C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA872B682754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dahmajaber_Lab24_Networking_jsonplaceholderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA872B6C2754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dahmajaber_Lab24_Networking_jsonplaceholderTests.swift; sourceTree = "<group>"; };
+		EA872B722754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dahmajaber_Lab24_Networking_jsonplaceholderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA872B762754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dahmajaber_Lab24_Networking_jsonplaceholderUITests.swift; sourceTree = "<group>"; };
+		EA872B782754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dahmajaber_Lab24_Networking_jsonplaceholderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA872B852754A28B00AE9C46 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		EA872B872754F2A300AE9C46 /* CellTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA872B4F2754A0F300AE9C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA872B652754A0F500AE9C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA872B6F2754A0F500AE9C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA76B064275BFD520008E1DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA872B852754A28B00AE9C46 /* Person.swift */,
+				EA872B872754F2A300AE9C46 /* CellTable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA76B065275BFD600008E1DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA872B5B2754A0F300AE9C46 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA76B066275BFD700008E1DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA872B592754A0F300AE9C46 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA872B492754A0F300AE9C46 = {
+			isa = PBXGroup;
+			children = (
+				EA872B542754A0F300AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholder */,
+				EA872B6B2754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests */,
+				EA872B752754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests */,
+				EA872B532754A0F300AE9C46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA872B532754A0F300AE9C46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA872B522754A0F300AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholder.app */,
+				EA872B682754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests.xctest */,
+				EA872B722754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA872B542754A0F300AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				EA872B552754A0F300AE9C46 /* AppDelegate.swift */,
+				EA872B572754A0F300AE9C46 /* SceneDelegate.swift */,
+				EA76B064275BFD520008E1DC /* Model */,
+				EA76B065275BFD600008E1DC /* View */,
+				EA76B066275BFD700008E1DC /* Controller */,
+				EA872B5E2754A0F500AE9C46 /* Assets.xcassets */,
+				EA872B602754A0F500AE9C46 /* LaunchScreen.storyboard */,
+				EA872B632754A0F500AE9C46 /* Info.plist */,
+			);
+			path = dahmajaber_Lab24_Networking_jsonplaceholder;
+			sourceTree = "<group>";
+		};
+		EA872B6B2754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA872B6C2754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests.swift */,
+			);
+			path = dahmajaber_Lab24_Networking_jsonplaceholderTests;
+			sourceTree = "<group>";
+		};
+		EA872B752754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA872B762754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests.swift */,
+				EA872B782754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITestsLaunchTests.swift */,
+			);
+			path = dahmajaber_Lab24_Networking_jsonplaceholderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA872B512754A0F300AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA872B7C2754A0F500AE9C46 /* Build configuration list for PBXNativeTarget "dahmajaber_Lab24_Networking_jsonplaceholder" */;
+			buildPhases = (
+				EA872B4E2754A0F300AE9C46 /* Sources */,
+				EA872B4F2754A0F300AE9C46 /* Frameworks */,
+				EA872B502754A0F300AE9C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dahmajaber_Lab24_Networking_jsonplaceholder;
+			productName = dahmajaber_Lab24_Networking_jsonplaceholder;
+			productReference = EA872B522754A0F300AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA872B672754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA872B7F2754A0F500AE9C46 /* Build configuration list for PBXNativeTarget "dahmajaber_Lab24_Networking_jsonplaceholderTests" */;
+			buildPhases = (
+				EA872B642754A0F500AE9C46 /* Sources */,
+				EA872B652754A0F500AE9C46 /* Frameworks */,
+				EA872B662754A0F500AE9C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA872B6A2754A0F500AE9C46 /* PBXTargetDependency */,
+			);
+			name = dahmajaber_Lab24_Networking_jsonplaceholderTests;
+			productName = dahmajaber_Lab24_Networking_jsonplaceholderTests;
+			productReference = EA872B682754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA872B712754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA872B822754A0F500AE9C46 /* Build configuration list for PBXNativeTarget "dahmajaber_Lab24_Networking_jsonplaceholderUITests" */;
+			buildPhases = (
+				EA872B6E2754A0F500AE9C46 /* Sources */,
+				EA872B6F2754A0F500AE9C46 /* Frameworks */,
+				EA872B702754A0F500AE9C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA872B742754A0F500AE9C46 /* PBXTargetDependency */,
+			);
+			name = dahmajaber_Lab24_Networking_jsonplaceholderUITests;
+			productName = dahmajaber_Lab24_Networking_jsonplaceholderUITests;
+			productReference = EA872B722754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA872B4A2754A0F300AE9C46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					EA872B512754A0F300AE9C46 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EA872B672754A0F500AE9C46 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EA872B512754A0F300AE9C46;
+					};
+					EA872B712754A0F500AE9C46 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EA872B512754A0F300AE9C46;
+					};
+				};
+			};
+			buildConfigurationList = EA872B4D2754A0F300AE9C46 /* Build configuration list for PBXProject "dahmajaber_Lab24_Networking_jsonplaceholder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA872B492754A0F300AE9C46;
+			productRefGroup = EA872B532754A0F300AE9C46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA872B512754A0F300AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholder */,
+				EA872B672754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests */,
+				EA872B712754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA872B502754A0F300AE9C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA872B622754A0F500AE9C46 /* LaunchScreen.storyboard in Resources */,
+				EA872B5F2754A0F500AE9C46 /* Assets.xcassets in Resources */,
+				EA872B5D2754A0F300AE9C46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA872B662754A0F500AE9C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA872B702754A0F500AE9C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA872B4E2754A0F300AE9C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA872B882754F2A300AE9C46 /* CellTable.swift in Sources */,
+				EA872B5A2754A0F300AE9C46 /* ViewController.swift in Sources */,
+				EA872B562754A0F300AE9C46 /* AppDelegate.swift in Sources */,
+				EA872B862754A28B00AE9C46 /* Person.swift in Sources */,
+				EA872B582754A0F300AE9C46 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA872B642754A0F500AE9C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA872B6D2754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA872B6E2754A0F500AE9C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA872B772754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITests.swift in Sources */,
+				EA872B792754A0F500AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA872B6A2754A0F500AE9C46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA872B512754A0F300AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholder */;
+			targetProxy = EA872B692754A0F500AE9C46 /* PBXContainerItemProxy */;
+		};
+		EA872B742754A0F500AE9C46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA872B512754A0F300AE9C46 /* dahmajaber_Lab24_Networking_jsonplaceholder */;
+			targetProxy = EA872B732754A0F500AE9C46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA872B5B2754A0F300AE9C46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA872B5C2754A0F300AE9C46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA872B602754A0F500AE9C46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA872B612754A0F500AE9C46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA872B7A2754A0F500AE9C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA872B7B2754A0F500AE9C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA872B7D2754A0F500AE9C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dahmajaber_Lab24_Networking_jsonplaceholder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.dahmajaber-Lab24-Networking-jsonplaceholder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA872B7E2754A0F500AE9C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dahmajaber_Lab24_Networking_jsonplaceholder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.dahmajaber-Lab24-Networking-jsonplaceholder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA872B802754A0F500AE9C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.dahmajaber-Lab24-Networking-jsonplaceholderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dahmajaber_Lab24_Networking_jsonplaceholder.app/dahmajaber_Lab24_Networking_jsonplaceholder";
+			};
+			name = Debug;
+		};
+		EA872B812754A0F500AE9C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.dahmajaber-Lab24-Networking-jsonplaceholderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dahmajaber_Lab24_Networking_jsonplaceholder.app/dahmajaber_Lab24_Networking_jsonplaceholder";
+			};
+			name = Release;
+		};
+		EA872B832754A0F500AE9C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.dahmajaber-Lab24-Networking-jsonplaceholderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dahmajaber_Lab24_Networking_jsonplaceholder;
+			};
+			name = Debug;
+		};
+		EA872B842754A0F500AE9C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.dahmajaber-Lab24-Networking-jsonplaceholderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dahmajaber_Lab24_Networking_jsonplaceholder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA872B4D2754A0F300AE9C46 /* Build configuration list for PBXProject "dahmajaber_Lab24_Networking_jsonplaceholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA872B7A2754A0F500AE9C46 /* Debug */,
+				EA872B7B2754A0F500AE9C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA872B7C2754A0F500AE9C46 /* Build configuration list for PBXNativeTarget "dahmajaber_Lab24_Networking_jsonplaceholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA872B7D2754A0F500AE9C46 /* Debug */,
+				EA872B7E2754A0F500AE9C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA872B7F2754A0F500AE9C46 /* Build configuration list for PBXNativeTarget "dahmajaber_Lab24_Networking_jsonplaceholderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA872B802754A0F500AE9C46 /* Debug */,
+				EA872B812754A0F500AE9C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA872B822754A0F500AE9C46 /* Build configuration list for PBXNativeTarget "dahmajaber_Lab24_Networking_jsonplaceholderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA872B832754A0F500AE9C46 /* Debug */,
+				EA872B842754A0F500AE9C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA872B4A2754A0F300AE9C46 /* Project object */;
+}
