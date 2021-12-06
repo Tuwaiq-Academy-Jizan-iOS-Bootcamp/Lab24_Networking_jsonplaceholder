@@ -23,14 +23,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstCompanyNameLabel: UILabel!
     @IBOutlet weak var firstCompanyPhraseLabel: UILabel!
     @IBOutlet weak var firstCompaanyBsLable: UILabel!
-    
-    
-    
-    
-    
-    
-    
     @IBOutlet weak var tableView: UITableView!
+    
+    
     var persons: [Person] = []
     override func viewDidLoad() {
         super.viewDidLoad()
