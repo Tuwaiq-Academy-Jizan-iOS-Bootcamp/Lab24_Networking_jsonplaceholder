@@ -61,8 +61,8 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
             cell.personName.text = self.personArray[indexPath.row].name
             cell.personID.text =  String(self.personArray[indexPath.row].id)
             cell.persomEmail.text =  self.personArray[indexPath.row].email
-            cell.personAddrees.text = "\(self.personArray[indexPath.row].address)"
-            cell.personCompany.text =  "\(self.personArray[indexPath.row].company)"
+            cell.personAddrees.text = "street: \(self.personArray[indexPath.row].address.street) ,suite: \(self.personArray[indexPath.row].address.suite) , sity: \(self.personArray[indexPath.row].address.city) , zipcode: \(self.personArray[indexPath.row].address.zipcode) , goe: (lat :\(self.personArray[indexPath.row].address.geo.lat) lng: \(self.personArray[indexPath.row].address.geo.lng))"
+            cell.personCompany.text =  " name: \(self.personArray[indexPath.row].company.name), catchPhrase: \(self.personArray[indexPath.row].company.catchPhrase), bs: \(self.personArray[indexPath.row].company.bs)"
             cell.personPhone.text =  self.personArray[indexPath.row].phone
             cell.personUserName.text =  self.personArray[indexPath.row].username
             cell.personWebsite.text =  self.personArray[indexPath.row].website
